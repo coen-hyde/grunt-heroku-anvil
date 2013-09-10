@@ -1,0 +1,41 @@
+{
+  "name": "grunt-heroku-anvil",
+  "description": "Uses Heroku's Anvil build server. Then deploy optionally deploys the build to a specified app on Heroku. This is an alternative to the standard git deployment.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/coen-hyde/grunt-heroku-anvil",
+  "author": {
+    "name": "Coen Hyde",
+    "email": "coen.hyde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coen-hyde/grunt-heroku-anvil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coen-hyde/grunt-heroku-anvil/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/coen-hyde/grunt-heroku-anvil/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+  ]
+}
